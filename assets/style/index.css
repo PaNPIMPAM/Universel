@@ -3,6 +3,11 @@
   padding: 200px 0px;
   transition: 0.3s;
 }
+@media (max-width: 426px) {
+  .banner {
+    padding: 100px 0px;
+  }
+}
 .banner .content {
   display: flex;
   max-width: 1380px;

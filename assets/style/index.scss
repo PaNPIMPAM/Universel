@@ -2,6 +2,9 @@
     background: url(/assets/image/banner.png) lightgray 50% / cover no-repeat;
     padding: 200px 0px;
     transition: 0.3s;
+    @media (max-width:426px) {
+        padding: 100px 0px;
+    }
     .content {
         display: flex;
         max-width: 1380px;
