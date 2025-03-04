@@ -1,0 +1,32 @@
+.header {
+    background: var(--whiteSmoky);
+    .content {
+        display: flex;
+        max-width: 1380px;
+        margin: auto;
+        justify-content: space-between;
+        padding: 20px 50px;
+        align-items: center;
+        @media (max-width:768px) {
+            padding: 20px;
+        }
+        .h1 {
+            font-family: "Manrope-Regular";
+            color: var(--nero);
+            font-size: clamp(20px, 5vw, 40px);
+        }
+
+        .contact {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            a {
+                font-family: "Manrope-Regular";
+                color: var(--nero);
+                font-size: clamp(14px, 3vw, 16px);
+
+            }
+        }
+    }
+}
