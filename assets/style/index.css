@@ -1,9 +1,8 @@
 .banner {
   background: url(/assets/image/banner.png) lightgray 50%/cover no-repeat;
-  padding: 200px 0;
-  transition: 0.3s;
+  padding: 200px 0px;
 }
-@media (max-width: 426px) {
+@media (max-width: 768px) {
   .banner {
     padding: 100px 0;
   }
@@ -11,8 +10,8 @@
 .banner .content {
   display: flex;
   max-width: 1380px;
-  margin: 0 auto;
-  padding: 0 50px;
+  margin: auto;
+  padding: 0px 50px;
   align-items: flex-start;
   gap: 50px;
 }
@@ -21,10 +20,10 @@
     padding: 0 20px;
   }
 }
-.banner .content .banner-text {
+.banner .content p {
   color: var(--totalWhite);
   font-family: var(--font-bold);
-  font-size: var(--banner-text);
+  font-size: var(--baner-text);
 }
 
 .servcice .content {

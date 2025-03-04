@@ -1,28 +1,25 @@
 .banner {
     background: url(/assets/image/banner.png) lightgray 50% / cover no-repeat;
-    padding: 200px 0;
-    transition: 0.3s;
+    padding: 200px 0px;
 
-    @media (max-width: 426px) {
-        padding: 100px 0; // Исправлено: убрано лишнее значение `100px` без указания направления
+    @media (max-width:768px) {
+        padding: 100px 0;
     }
-
     .content {
         display: flex;
         max-width: 1380px;
-        margin: 0 auto;
-        padding: 0 50px;
+        margin: auto;
+        padding: 0px 50px;
         align-items: flex-start;
         gap: 50px;
-
-        @media (max-width: 768px) {
+        @media (max-width:768px) {
             padding: 0 20px;
         }
-
-        .banner-text {
+        p {
             color: var(--totalWhite);
             font-family: var(--font-bold);
-            font-size: var(--banner-text);
+            font-size: var(--baner-text);
+
         }
     }
 }
