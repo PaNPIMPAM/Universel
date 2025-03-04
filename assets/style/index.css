@@ -1,7 +1,7 @@
 .banner {
   background: url(/assets/image/banner.png) lightgray 50%/cover no-repeat;
   padding: 200px 0px;
-  display: none;
+  transition: 0.3s;
 }
 .banner .content {
   display: flex;
