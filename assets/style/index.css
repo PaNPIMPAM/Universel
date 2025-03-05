@@ -21,6 +21,7 @@
   }
 }
 .banner .content p {
+  line-height: 84.6px;
   color: var(--totalWhite);
   font-family: var(--font-bold);
   font-size: var(--baner-text);
