@@ -25,6 +25,11 @@
   font-size: var(--baner-text);
   line-height: 84.69px;
 }
+@media (max-width: 600px) {
+  .banner .content .baner_text {
+    line-height: 54.64px;
+  }
+}
 
 .servcice .content {
   display: flex;

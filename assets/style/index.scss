@@ -18,6 +18,10 @@
             font-family: var(--font-bold);
             font-size: var(--baner-text);
             line-height: 84.69px;
+            @media (max-width:600px) {
+                line-height: 54.64px;
+                
+            }
         }
     }
 }
