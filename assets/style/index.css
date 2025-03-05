@@ -146,6 +146,7 @@
   max-width: 1380px;
   margin: auto;
   padding: 80px 50px;
+  justify-content: space-between;
 }
 @media (max-width: 768px) {
   .advantages .content {
