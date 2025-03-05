@@ -14,11 +14,10 @@
     padding: 20px;
   }
 }
-.header .content .h1 {
-  font-family: "Manrope-Regular";
-  color: var(--nero);
-  font-size: clamp(20px, 5vw, 40px);
-  line-height: 36.64px;
+@media (max-width: 600px) {
+  .header .content img {
+    width: 104px;
+  }
 }
 .header .content .contact {
   display: flex;

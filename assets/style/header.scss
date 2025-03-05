@@ -10,11 +10,11 @@
         @media (max-width:768px) {
             padding: 20px;
         }
-        .h1 {
-            font-family: "Manrope-Regular";
-            color: var(--nero);
-            font-size: clamp(20px, 5vw, 40px);
-            line-height: 36.64px;
+        img{
+            @media (max-width:600px) {
+                width: 104px;
+                
+            }
         }
 
         .contact {
