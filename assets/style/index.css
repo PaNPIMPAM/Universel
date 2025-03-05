@@ -58,13 +58,13 @@
 }
 .servcice .content .servcice_image img {
   border-radius: 24px;
-  width: calc(33.3333333333% - 20px);
+  width: calc(33.3333333333% - 13.3333333333px);
   -o-object-fit: cover;
      object-fit: cover;
 }
 @media (max-width: 700px) {
   .servcice .content .servcice_image img {
-    width: calc(50% - 20px);
+    width: calc(33.3333333333% - 10px);
     height: 200px;
   }
 }
