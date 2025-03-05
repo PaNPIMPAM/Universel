@@ -221,8 +221,6 @@
 }
 .conditions .content p a {
   text-decoration: none;
-}
-.conditions .content p span {
   background: var(--nero);
   color: var(--totalWhite);
   padding: 0px 10px;
