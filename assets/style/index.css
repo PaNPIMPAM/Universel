@@ -19,20 +19,21 @@
     padding: 0 20px;
   }
 }
-.banner .content p {
+.banner .content .baner_text {
   color: var(--totalWhite);
   font-family: var(--font-bold);
   font-size: var(--baner-text);
+  line-height: 84.69px;
 }
 
 .servcice .content {
   display: flex;
   max-width: 1380px;
   margin: auto;
-  padding: 70px 50px;
+  padding: 80px 50px 70px 50px;
   flex-direction: column;
   align-items: center;
-  gap: 60px;
+  gap: 40px;
 }
 @media (max-width: 768px) {
   .servcice .content {
@@ -125,7 +126,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 24px;
-  width: calc(33.3333333333% - 20px);
+  width: calc(33.3333333333% - 15px);
   padding: 30px;
   gap: 20px;
 }
@@ -203,9 +204,6 @@
   max-width: 1380px;
   margin: auto;
   padding: 80px 50px;
-  justify-content: center;
-  align-items: flex-end;
-  align-content: flex-end;
   flex-wrap: wrap;
 }
 @media (max-width: 768px) {
@@ -214,16 +212,18 @@
   }
 }
 .conditions .content p {
+  margin: auto;
   width: 850px;
   font-family: var(--font-bold);
   font-size: clamp(20px, 5vw, 38px);
   text-indent: 80px;
+  line-height: 52px;
 }
 .conditions .content p span {
   background: var(--nero);
   color: var(--totalWhite);
   padding: 0px 10px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .clients .content {
@@ -253,7 +253,7 @@
 }
 .clients .content .clients-block .block {
   padding: 30px;
-  width: calc(25% - 20px);
+  width: calc(25% - 15px);
   border-radius: 20px;
   background: var(--whiteSmoke);
 }

@@ -1,5 +1,5 @@
 .header {
-    background: var(--whiteSmoky);
+    background: var(--whiteSmoke);
     .content {
         display: flex;
         max-width: 1380px;
@@ -14,6 +14,7 @@
             font-family: "Manrope-Regular";
             color: var(--nero);
             font-size: clamp(20px, 5vw, 40px);
+            line-height: 36.64px;
         }
 
         .contact {
@@ -25,7 +26,11 @@
                 font-family: "Manrope-Regular";
                 color: var(--nero);
                 font-size: clamp(14px, 3vw, 16px);
+                box-sizing: content-box;
 
+            }
+            .img-a{
+                height: 36px;
             }
         }
     }
