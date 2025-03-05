@@ -219,6 +219,9 @@
   font-size: clamp(20px, 5vw, 38px);
   text-indent: 80px;
 }
+.conditions .content p a {
+  text-decoration: none;
+}
 .conditions .content p span {
   background: var(--nero);
   color: var(--totalWhite);

@@ -209,6 +209,9 @@
             font-family: var(--font-bold);
             font-size: clamp(20px, 5vw, 38px);
             text-indent: 80px;
+            a{
+                text-decoration: none;
+            }
             span {
                 background: var(--nero);
                 color: var(--totalWhite);
