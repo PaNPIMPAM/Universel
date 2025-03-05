@@ -30,7 +30,8 @@
   align-items: center;
   gap: 10px;
 }
-.footer .content .dev span {
+.footer .content .dev a {
+  color: var(--nero);
   text-decoration-line: underline;
   text-decoration-style: solid;
   -webkit-text-decoration-skip: ink;
