@@ -1,0 +1,24 @@
+.banner {
+    background: url(../image/banner.webp) lightgray 50% / cover no-repeat;
+    padding: 200px 0px;
+    @media (max-width:768px) {
+        padding: 100px 0;
+    }
+    .content {
+        padding: 0px 50px;
+        gap: 50px;
+        @media (max-width:768px) {
+            padding: 0 20px;
+        }
+        .baner_text {
+            color: var(--totalWhite);
+            font-weight: 600;
+            line-height: 84.69px;
+            word-break: break-word;
+            @media (max-width:600px) {
+                line-height: 54.64px;
+                
+            }
+        }
+    }
+}

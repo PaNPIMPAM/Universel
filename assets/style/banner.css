@@ -1,0 +1,29 @@
+.banner {
+  background: url(../image/banner.webp) lightgray 50%/cover no-repeat;
+  padding: 200px 0px;
+}
+@media (max-width: 768px) {
+  .banner {
+    padding: 100px 0;
+  }
+}
+.banner .content {
+  padding: 0px 50px;
+  gap: 50px;
+}
+@media (max-width: 768px) {
+  .banner .content {
+    padding: 0 20px;
+  }
+}
+.banner .content .baner_text {
+  color: var(--totalWhite);
+  font-weight: 600;
+  line-height: 84.69px;
+  word-break: break-word;
+}
+@media (max-width: 600px) {
+  .banner .content .baner_text {
+    line-height: 54.64px;
+  }
+}/*# sourceMappingURL=banner.css.map */

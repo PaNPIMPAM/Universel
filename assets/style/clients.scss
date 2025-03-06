@@ -1,0 +1,47 @@
+.clients{
+    .content{
+        flex-direction: column;
+        gap: 100px;
+        @media (max-width:768px) {
+            gap: 40px;
+        }
+
+        h2{
+            width: 100%;
+            color: var(--nero);
+        }
+        .clients-block{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            @media (max-width:600px) {
+                gap: 10px;   
+            }
+            .block{
+                padding: 30px;
+                width: calc(100% / 4 - 15px);
+                border-radius: 20px;
+                background: var(--whiteSmoke);
+                @media (max-width:768px) {
+                    width: calc(33.3333333333% - (20px / 3 * 2));
+                    padding: 20px;
+                    gap: 10px;
+                }
+                @media (max-width:426px) {
+                    width: calc(100% / 2 - 5px);
+                    border-radius: 10px;
+                    gap: 10px;
+                }
+                img{
+                    width: 100%; 
+                    height: 100%;
+                    object-fit: cover;
+                }
+                
+            }
+            .grey{
+                background: var(--grey);
+            }
+        }
+    }
+}

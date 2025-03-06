@@ -1,0 +1,87 @@
+.advantages {
+    .content {
+        justify-content: space-between;
+       
+        @media (max-width:600px) {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        p {
+            color: var(--nero);
+        }
+
+
+        .advantages-text {
+            margin-right: 20px;
+        }
+
+        .advantages-cout {
+            width: 640px;
+            display: flex;
+            padding: 0px 40px;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 60px;
+            border-left: 1px solid var(--grey);
+            @media (max-width:600px) {
+                width: 100%;
+                padding: 0 20px;
+                gap: 40px;
+            }
+            p {
+                width: 100%;
+            }
+
+            #counter {
+                font-size: clamp(100px, 12vw, 160px);
+                font-weight: 600;
+                opacity: 1; 
+                transition: opacity 1s ease-in-out;
+            }
+            #counter.visible {
+                opacity: 1; 
+            }
+        }
+    }
+}
+
+.conditions {
+    .content {
+        display: flex;
+        max-width: 1380px;
+        margin: auto;
+        padding: 80px 50px;
+        flex-wrap: wrap;
+        @media (max-width:768px) {
+            padding: 40px 20px;
+            align-items: end;
+        }
+        p {
+            margin: auto;
+            width: 850px;
+            font-weight: 600;
+            font-size: clamp(20px, 4vw, 38px);
+            text-indent: 80px;
+            line-height: 1.6;
+            @media (max-width:600px) {
+                display: flex;
+                flex-direction: column;
+                text-align: end;
+                align-items: end;
+                line-height: 1.2;
+            }
+            span {
+                background: var(--nero);
+                color: var(--totalWhite);
+                padding: 0px 10px;
+                margin-left:10px ;
+                @media (max-width:600px) {
+                    text-indent: 0; 
+                    margin-top: 5px;
+                }                           
+            }
+        }
+    }
+}

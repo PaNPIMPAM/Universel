@@ -1,0 +1,45 @@
+.connection{
+    background: var(--whiteSmoke);
+    .content{
+        flex-direction: column;
+        gap: 100px;
+        @media (max-width:768px) {
+            gap: 40px;
+        }
+        h2{
+            width: 100%;
+            color: var(--nero);
+        }
+        .connection_contacts{
+            display: flex;
+            gap: 180px;
+            @media (max-width:768px) {
+                gap: 30px;
+            }
+            @media (max-width:426px) {
+                flex-direction: column;               
+            }
+           .contacts{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .connection-text{
+                color: var(--grey);
+            }
+            .connection-item{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                p{
+                    color: var(--nero);
+                }
+                a{
+                    display: flex;
+                    color: var(--nero);
+                    gap: 10px;
+                }
+            }
+           } 
+        }
+    }
+}

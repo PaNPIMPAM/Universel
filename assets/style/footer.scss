@@ -1,10 +1,7 @@
 .footer {
     background: var(--whiteSmoke);
-    border-top: 1px solid var(--grey);
+    border-top: 1px solid var(--totalWhite);
     .content {
-        display: flex;
-        max-width: 1380px;
-        margin: auto;
         padding: 20px 50px;
         justify-content: space-between;
         
@@ -18,9 +15,7 @@
         }
 
         p {
-            font-family: "Manrope-Regular";
             color: var(--nero);
-            font-size: 16px;
         }
 
         .item {
@@ -42,8 +37,7 @@
             
             @media (max-width:426px) {
                 justify-content: flex-end;
-                display: flex;
-                
+                display: flex;                
             }
         }
     }

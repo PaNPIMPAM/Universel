@@ -2,9 +2,6 @@
   background: var(--whiteSmoke);
 }
 .header .content {
-  display: flex;
-  max-width: 1380px;
-  margin: auto;
   justify-content: space-between;
   padding: 20px 50px;
   align-items: center;
@@ -25,7 +22,6 @@
   gap: 20px;
 }
 .header .content .contact a {
-  font-family: "Manrope-Regular";
   color: var(--nero);
   font-size: clamp(14px, 3vw, 16px);
   box-sizing: content-box;

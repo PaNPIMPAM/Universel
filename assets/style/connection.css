@@ -1,0 +1,51 @@
+.connection {
+  background: var(--whiteSmoke);
+}
+.connection .content {
+  flex-direction: column;
+  gap: 100px;
+}
+@media (max-width: 768px) {
+  .connection .content {
+    gap: 40px;
+  }
+}
+.connection .content h2 {
+  width: 100%;
+  color: var(--nero);
+}
+.connection .content .connection_contacts {
+  display: flex;
+  gap: 180px;
+}
+@media (max-width: 768px) {
+  .connection .content .connection_contacts {
+    gap: 30px;
+  }
+}
+@media (max-width: 426px) {
+  .connection .content .connection_contacts {
+    flex-direction: column;
+  }
+}
+.connection .content .connection_contacts .contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.connection .content .connection_contacts .contacts .connection-text {
+  color: var(--grey);
+}
+.connection .content .connection_contacts .contacts .connection-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.connection .content .connection_contacts .contacts .connection-item p {
+  color: var(--nero);
+}
+.connection .content .connection_contacts .contacts .connection-item a {
+  display: flex;
+  color: var(--nero);
+  gap: 10px;
+}/*# sourceMappingURL=connection.css.map */

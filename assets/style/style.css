@@ -1,14 +1,13 @@
 @font-face {
-    font-family: "Manrope-Regular";
-    src: url("../font/Manrope-Regular.ttf");
+    font-family: "Manrope";
+    src: url("../font/Manrope.ttf");
 }
-@font-face {
-    font-family: "Manrope-SemiBold";
-    src: url("../font/Manrope-SemiBold.ttf");
-}
+
 *{
+
     margin: 0;
     padding: 0;
+    font-family: "Manrope";
     box-sizing: border-box;
     text-decoration: none;
     line-height: 1.2;
@@ -17,21 +16,27 @@
     -webkit-text-size-adjust: none;
 }
 
-html{
+html ,body{
 background: var(--absWhite);
 }
-body{
-    background: var(--absWhite);
-}
+
 :root {
-    --baner-text:clamp(40px, 8vw, 62px);
-    --h2: clamp(24px, 6vw, 50px);
-    --title:clamp(16px, 5vw, 20px);
-    --text: 16px;
-    --font-reg: "Manrope-Regular";
-    --font-bold: "Manrope-SemiBold";
     --totalWhite:rgba(255, 255, 255);
     --whiteSmoke:#F4F4F4;
     --nero:#191919;
     --grey:rgba(148, 148, 148);
+}
+.baner_text{
+    font-size: clamp(40px, 8vw, 62px);
+}
+h2{
+    font-size: clamp(24px, 6vw, 50px);
+}
+
+.text{
+    font-size: 16px;
+}
+
+.title{
+  font-size: clamp(16px, 5vw, 20px);;
 }
