@@ -4,6 +4,11 @@
   align-items: center;
   gap: 40px;
 }
+@media (max-width: 768px) {
+  .servcice .content {
+    padding: 40px 20px 40px 20px;
+  }
+}
 .servcice .content .servcice_text {
   font-size: var(--title);
   color: var(--grey);

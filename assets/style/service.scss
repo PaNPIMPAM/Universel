@@ -4,6 +4,9 @@
         flex-direction: column;
         align-items: center;
         gap: 40px;
+        @media (max-width:768px) {
+            padding: 40px 20px 40px 20px;
+        }
         .servcice_text {
             font-size: var(--title);
             color: var(--grey);
